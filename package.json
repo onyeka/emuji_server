@@ -1,0 +1,36 @@
+{
+  "name": "emoji_server",
+  "version": "1.0.0",
+  "description": "Emoji to spotify track mapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j485/j485.github.io.git"
+  },
+  "keywords": [
+    "emuji",
+    "server"
+  ],
+  "author": "Onyeka Igabari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j485/j485.github.io/issues"
+  },
+  "homepage": "https://github.com/j485/j485.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.14.0",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
